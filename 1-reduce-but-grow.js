@@ -1,4 +1,4 @@
-// Challange reduce but grow at Code Wars
+// Code Wars - Reduce But Grow
 // https://www.codewars.com/kata/57f780909f7e8e3183000078/javascript
 
 // Answer 1
