@@ -1,3 +1,7 @@
+// Challange reduce but grow at Code Wars
+// https://www.codewars.com/kata/57f780909f7e8e3183000078/javascript
+
+// Answer 1
 // function grow(x) {
 //     let hasil = x[0];
 //     for (let i = 1; i < x.length; i++) {
@@ -6,8 +10,10 @@
 //     return hasil;
 // }
 
-// console.log(grow([1, 2, 3]))
+// console.log(grow([1, 2, 3, 4]))
 
+
+// Answer 2
 // let x = [1, 2, 3, 4];
 
 // function grow(x) {
@@ -20,10 +26,8 @@
 
 // console.log(grow(x))
 
-const grow = (x) => result = x.reduce((a, b) => a * b)
 
-// function grow(x) {
-//     return result = x.reduce((a, b) => a * b)
-// }
+// Answer 3
+const grow = (x) => result = x.reduce((a, b) => a * b)
 
 console.log(grow([1, 2, 3, 4]))
