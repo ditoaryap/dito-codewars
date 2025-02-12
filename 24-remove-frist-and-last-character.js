@@ -9,8 +9,8 @@
 
 
 function removeChar(str) {
-    let test = "eloquent"
-    return test.slice(1)
+    const len = str.length - 1
+    return str.slice(1).slice(0,len-1)
 }
 
-console.log('test')
+console.log(removeChar("eloquent"))
