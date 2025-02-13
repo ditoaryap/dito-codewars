@@ -21,10 +21,9 @@ function solution(string) {
         return final
     }
     return final
-  }
+}
 
-  solution("camelCasing")
-
+solution("camelCasing")
 
 let string = "camelCasing"
 
