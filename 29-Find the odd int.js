@@ -11,6 +11,7 @@
 
 
 function findOdd(A) {
-        
-  return 0;
+    return A.reduce((a, b) => a ^ b);
 }
+
+findOdd([1, 1, 2])
